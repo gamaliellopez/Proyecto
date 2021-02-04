@@ -21,13 +21,13 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
            <li class="nav-item active">
-           <router-link to="/">Home  </router-link>
+            <router-link class="nav-link" to="dog">Raza de perros<span class="sr-only">(current)</span></router-link>
           </li>
            <li class="nav-item active">
-          <router-link to="/gat">Gato  </router-link>
+            <router-link class="nav-link" to="gat">Raza de gatos<span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item active">
-           <router-link to="/dog">Home  </router-link>
+            <router-link class="nav-link" href="#">informacion<span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -43,7 +43,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
-              <router-link to="/file">Home  </router-link>
+              <router-link class="dropdown-item" to="file">Something else here</router-link>
             </div>
           </li>
           <li class="nav-item">
