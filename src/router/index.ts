@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Home from "@/views/Home"
-import Dog from "@/views/Dog"
-import File from "@/views/File"
-import Gat from "@/views/Gat"
+// import Home from "@/views/Home"
+// import Dog from "@/views/Dog"
+// import File from "@/views/File"
+// import Gat from "@/views/Gat"
 import VueRouter, { RouteConfig } from 'vue-router'
 
 
@@ -15,29 +15,28 @@ Vue.use(VueRouter)
   //   component: () => import(/* webpackChunkName: "servicios" */ '../views/Servicios.vue')
   // }
   {
-    path: "/",
-    name: "home",
-    component: Home
+    path: '/',
+    name: 'Home',
+    component: () => import(/* webpackChunkName: "editar" */ '../views/Home.vue'),
+    props: true
   },
   {
-    path: "/dog",
-    name: "dog",
-    component: Dog
+    path: '/gat',
+    name: 'Gat',
+    component: () => import(/* webpackChunkName: "editar" */ '../views/Gat.vue'),
+    props: true
   },
   {
-    path: "/gat",
-    name: "gat",
-    component: Gat
+    path: '/dog',
+    name: 'Dog',
+    component: () => import(/* webpackChunkName: "editar" */ '../views/Dog.vue'),
+    props: true
   },
   {
-    path: "/file",
-    name: "file",
-    component: File
-  },
-  {
-    path: "*",
-    name: "error",
-    component: Error
+    path: '/file',
+    name: 'File',
+    component: () => import(/* webpackChunkName: "editar" */ '../views/File.vue'),
+    props: true
   }
   
 ]
