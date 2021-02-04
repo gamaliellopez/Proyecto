@@ -37,6 +37,18 @@ Vue.use(VueRouter)
     name: 'File',
     component: () => import(/* webpackChunkName: "editar" */ '../views/File.vue'),
     props: true
+  },
+  {
+    path: '/filee',
+    name: 'Filee',
+    component: () => import(/* webpackChunkName: "editar" */ '../views/File2.vue'),
+    props: true
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import(/* webpackChunkName: "editar" */ '../components/Login.vue'),
+    props: true
   }
   
 ]
