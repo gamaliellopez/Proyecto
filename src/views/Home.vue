@@ -38,7 +38,7 @@
   <img src="../assets/images/perro.png" alt="" width="60px" />
   
     <iframe
-      :src="nuevo + '../assets/file/usuario.xlsx'"
+      src="https://docs.google.com/spreadsheets/d/1lLrus-bkIBsNhrPLFQLc0XfWevogNgYP/edit?rtpof=true#gid=1457585737'"
       width="100%"
       height="565px"
       frameborder="0"
