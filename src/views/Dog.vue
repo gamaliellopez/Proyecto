@@ -1,6 +1,22 @@
 <template>
-    <div>
-        perro
+      <div>
+        <!--start intro-->
+  <section id="intro" class="intro">
+    <div id="slides">
+      <div class="slides_container"> <img src="../images/banner1.jpg" width="960" height="300" alt=""></div>
+    </div>
+  </section>
+  <!--end intro-->
+  <!--start holder-->
+  <div class="holder_content1">
+    <section class="group5">
+      <h1>Welcome</h1>
+      <article>
+        <h2>Douglas Adams: One of the problems of taking things apart and seeing how they work - supposing you're trying to find out how a cat works--you take that cat apart to see how it works, what you've got in your hands is a non-working cat. The cat wasn't a sort of clunky mechanism that was susceptible to our available tools of analysis. </h2>
+      </article>
+    </section>
+  </div>
+  <!--end holder-->
     </div>
 </template>
 
@@ -21,10 +37,7 @@ export default {
 </script>
 
 <style scoped>
-.container__carousel {
-    margin-top: 10px;
-}
-.container__p {
-    margin-top: 30px;
+.intro{
+  margin-top: 20px;
 }
 </style>

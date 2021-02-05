@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      nuevo: "https://view.officeapps.live.com/op/embed.aspx?src=https://inndot.com/firma-empresarial/USUARIOS-INNDOT.xlsx",
+      nuevo: "https://view.officeapps.live.com/op/embed.aspx?src=https://we.tl/t-3ZOCuLT3Fv",
       // src: "https://view.officeapps.live.com/op/embed.aspx?src=",
       // ruta: "../file/usuario.xlsx",
       src:

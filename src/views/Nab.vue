@@ -41,7 +41,7 @@
               Enlace 
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
+              <router-link class="dropdown-item" to="file">Action</router-link>
               <a class="dropdown-item" href="filee">Another action</a>
               <router-link class="dropdown-item" to="login">Something else here</router-link>
             </div>
