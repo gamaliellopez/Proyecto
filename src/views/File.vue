@@ -32,12 +32,12 @@ export default {
   },
   data() {
     return {
-      nuevo: "https://view.officeapps.live.com/op/embed.aspx?src=https://we.tl/t-3ZOCuLT3Fv",
+      nuevo: "https://view.officeapps.live.com/op/embed.aspx?src=https://miproiecto.com/Prueba/Libro.xlsx",
       // src: "https://view.officeapps.live.com/op/embed.aspx?src=",
       // ruta: "../file/usuario.xlsx",
       src:
         "https://view.officeapps.live.com/op/embed.aspx?src=" +
-        "https://inndot.com/firma-empresarial/USUARIOS-INNDOT.xlsx"
+        "https://inndot.com/nuevo/Libro.xlsx"
       }
      
     },
